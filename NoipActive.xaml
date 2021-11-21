@@ -1,0 +1,123 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="NoipActive" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="824,759.2" sap2010:WorkflowViewState.IdRef="NoipActive_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="NoipActive" sap:VirtualizedContainerService.HintSize="475.2,694.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="433.6,601.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="a1e12ba3-959b-467a-bd43-6b23f1b9cc6f" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,384.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Hostname' ReferenceName='Hostname' ReferenceIdx='0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Last Update' ReferenceName='Last Update' ReferenceIdx='1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='IP / Target' ReferenceName='IP / Target' ReferenceIdx='2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Type' ReferenceName='Type' ReferenceIdx='3'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Column-4' ReferenceName='Column-4' ReferenceIdx='4'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Hostname' attr='text' /&gt;&lt;column name='Last Update' attr='text' /&gt;&lt;column name='IP / Target' attr='text' /&gt;&lt;column name='Type' attr='text' /&gt;&lt;column name='Column-4' attr='text' /&gt;&lt;/extract-table&gt;" ExtractSimilar="True" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NExtractData_1" MaximumResults="0" Version="V1">
+              <uix:NExtractData.NextLink>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" Guid="5bcfddff-82a5-435a-9058-629b5fea5374" />
+              </uix:NExtractData.NextLink>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="317, 345, 1546, 163" FriendlyName="'Hostname Last Update'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="083ac56b-9557-427b-9a90-7b8efd100830" InformativeScreenshot="a4b8e08319d9dfd644a6c793626e5c6f.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='My No-IP' /&gt;" SearchSteps="Selector" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[ExtractDataTable.ToString]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Firefox" IconBase64="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" InformativeScreenshot="98bf610275bcb5f73391b4de8c712f5b.png" Selector="&lt;html app='firefox.exe' title='My No-IP'/&gt;" Url="https://my.noip.com/dynamic-dns" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
